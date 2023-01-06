@@ -1,0 +1,5 @@
+<section class="pagination">
+    <a href="?page=<%= page - 1 %>" class="<%= hasPrevious ? "" : "disabled" %>">Previous</a>
+    <span><%= page %> of <%= totalPages %></span>
+    <a href="?page=<%= page + 1 %>" class="<%= hasNext ? "" : "disabled" %>">Next</a>
+</section>
